@@ -15,9 +15,9 @@ const Navbar = () => {
     <div>
       <nav className="w-full bg-red-100 h-20 flex justify-between items-center">
         {/* Logo */}
-        <div className="mt-10 w-auto h-[80px] ml-6 md:ml-12 items-center font-bold text-lg text-black cursor-pointer hover:text-blue-700">
+     <Link href="/">   <div className="mt-10 w-auto h-[80px] ml-6 md:ml-12 items-center font-bold text-lg text-black cursor-pointer hover:text-blue-700">
           Ahmed Ur <span className="text-blue-700 hover:text-black">Rehman</span>
-        </div>
+        </div></Link>
 
         {/* Desktop Links */}
         <div className="hidden md:flex">
