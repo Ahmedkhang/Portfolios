@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Desktop Links */}
         <div className="hidden md:flex">
           <ul className="flex text-black text-center space-x-6 md:space-x-10 font-bold mr-10">
-            <Link href="/page.tsx">
+            <Link href="/">
               <li className="cursor-pointer hover:text-blue-700">Home</li>
             </Link>
             <Link href="/projects">
