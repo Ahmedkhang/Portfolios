@@ -1,6 +1,7 @@
 // import Navbar from "@/components/Navbar";
 // import Footer from "@/components/Footer"
 import React from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -12,12 +13,12 @@ export default function Home() {
           </h1>
           <h2 className="text-xl md:text-3xl text-black mt-4 md:mt-6">Frontend Developer.</h2>
           <div className="flex flex-col md:flex-row gap-4 mt-6 md:mt-10">
-            <button className="w-full md:w-[10vw] h-[6vh] bg-blue-700 text-red-100 hover:bg-red-100 hover:text-blue-700 cursor-pointer">
+           <Link href="/contactus"><button className="w-full md:w-[10vw] h-[6vh] bg-blue-700 text-red-100 hover:bg-red-100 hover:text-blue-700 cursor-pointer">
               Contact Us
-            </button>
-            <button className="w-full md:w-[10vw] h-[6vh] bg-blue-700 text-red-100 hover:bg-red-100 hover:text-blue-700 cursor-pointer">
+            </button></Link> 
+            <Link href="/projects"><button className="w-full md:w-[10vw] h-[6vh] bg-blue-700 text-red-100 hover:bg-red-100 hover:text-blue-700 cursor-pointer">
               Our Projects
-            </button>
+            </button></Link>
           </div>
         </div>
 
